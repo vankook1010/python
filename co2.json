@@ -1,0 +1,16 @@
+{
+    "servicios": [
+        {
+            "id": 1,
+            "nombre": "Consultoría",
+            "precio": 100,
+            "disponibilidad": true
+        },
+        {
+            "id": 2,
+            "nombre": "Desarrollo Web",
+            "precio": 200,
+            "disponibilidad": true
+        }
+    ]
+}
