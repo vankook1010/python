@@ -2,7 +2,7 @@
     "servicios": [
         {
             "id": 1,
-            "nombre": "Consultoría",
+            "nombre": "VANESSA",
             "precio": 100,
             "disponibilidad": true
         },
