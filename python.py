@@ -3,7 +3,7 @@ import csv
 import json
 import xml.etree.ElementTree as ET
 
-def listar_archivos(LARA):
+def listar_archivos(SAM):
     """
     Lista los archivos dentro de un directorio, identificando su nombre,
     extensión y ruta completa.
@@ -91,7 +91,7 @@ def crear_servicios_json(codigo.json):
 
 if __name__ == "__main__":
     # Directorio a listar
-    directorio = "./LARA"
+    directorio = "./SAM"
     archivos = listar_archivos(directorio)
     print("\nArchivos encontrados en el directorio:")
     for archivo in archivos:
