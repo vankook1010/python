@@ -3,7 +3,7 @@ import csv
 import json
 import xml.etree.ElementTree as ET
 
-def listar_archivos(SAM):
+def listar_archivos(LARA):
     """
     Lista los archivos dentro de un directorio, identificando su nombre,
     extensión y ruta completa.
@@ -91,7 +91,7 @@ def crear_servicios_json(codigo.json):
 
 if __name__ == "__main__":
     # Directorio a listar
-    directorio = "./SAM"
+    directorio = "./LARA"
     archivos = listar_archivos(directorio)
     print("\nArchivos encontrados en el directorio:")
     for archivo in archivos:
@@ -102,8 +102,8 @@ if __name__ == "__main__":
     leer_usuarios_csv(ruta_csv)
 
     # Crear archivos XML y JSON
-    ruta_xml = os.path.join(directorio, "codigo.xml")
+    ruta_xml = os.path.join(directorio, "CODIGO.xml")
     crear_programacion_xml(ruta_xml)
 
-    ruta_json = os.path.join(directorio, "co2.json")
+    ruta_json = os.path.join(directorio, "CODIGO.json")
     crear_servicios_json(ruta_json)
