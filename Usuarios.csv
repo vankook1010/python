@@ -2,4 +2,4 @@ Cuenta;Nombres ;Apellidos;Cargo;Dependencia;Oficina;Telefono;Email;Compañía;Ci
 1;Juan ;Perez;Analista de datos;TI;301;1234567890;juan.perez@sam.com;SAM;Bogota;Activo
 2;Maria;Gomez;Gerente de proyectos;Operaciones;105;987654321;maria.gomez@sam.com;SAM;Medellin;Activo
 3;Carlos;Lopez;Asistente administrativo;Recursos humanos;210;1122334455;carlos.lopez@sam.com;SAM;Cali;Activo
-4;Ana;Martinez;Desarrolladora de software;TI;403;5566778899;ana.martinez@vsam.com;SAM;Cartagena;Activo
+4;Ana;Martinez;Desarrolladora de software;TI;403;5566778899;ana.martinez@sam.com;SAM;Cartagena;Activo
